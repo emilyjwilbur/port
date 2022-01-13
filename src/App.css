@@ -10,12 +10,33 @@
   width: 50px;
   transition: transform .7s ease-in-out;
   
+  
 }
 .logo:hover{
   
   transform: rotate(360deg);
 }
 
+li{
+  list-style-type: none;
+ 
+}
+.navlinks{
+  color: black;
+  text-decoration: none;
+  padding: 2rem;
+ display: block;
+}
+.navlinks:hover{
+  color: rgb(117, 116, 116);
+  font-weight: 300;
+}
+.navbar-brand {
+position: absolute;
+left: 50%;
+display: block;
+margin-left: -49% !important;
+}
 
 
 
@@ -266,19 +287,50 @@ button:focus{
     width: 100%;
     position: relative;
     top: 20%;
+    
+
   }
+
+  .hero_scrollDown  {
+  display: none;
+  }
+  .hero-image .headshot{
+    width: 50%;
+    animation: slideMe 2.8s ease-in;
+    padding-top: 5rem;
+    
+  
+  }
+  .hero-content-line-inner{
+    font-weight: 900;
+    font-size: 45px;
+    display: flex;
+  }
+  p{
+   display: flex;
+   width: 70%;
+    font-size: 15px;
+    line-height: 24px;
+    font-weight: 300;
+  }
+  
+ 
+  
 }
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 768px) {
   .hero-content {
-    position: absolute;
+   
     display:  block;
-    width: 100%;
+  width: 80%;
     margin-left: 0;
+    margin-top: -200px;
+    
   }
 .hero-image .headshot{
-margin-top: 15rem;
-margin-left: 50px;
+margin-top: 0rem;
+margin-left: 0px;
 width: 200px;
+
 }
  
 }
@@ -287,31 +339,35 @@ width: 200px;
 
 /* footer section */
 .footer{
-  padding-top: 5rem;
+  padding-top: 4rem;
   background-color: #cecdcd;
   color: black;
   display: flex;
   gap: 2rem;
+  padding-bottom: 3rem;
+  width: 100%;
 }
 
 .footer-heading{
   font-size: 18px;
   margin-bottom: 2rem;
-  text-align: left;
+  text-align: center;
   
 }
 
 .li-footer{
   list-style-type: none;
-  margin-left: -15px;
+
+
 }
 .li-footer a{
   margin-bottom: 1rem;
   font-size: 12px;
-  
-  text-align: left;
+  justify-content: center;
+  text-align: center;
   color: black;
   text-decoration: none;
+  margin-left: -25px;
 }
 
 .li-footer a:hover{
@@ -326,6 +382,7 @@ width: 200px;
 .footer_col3,
 .footer_col4{
   flex: 1;
+  text-align: center;
 }
 .footer_col1_title {
   font-size: 2rem;
@@ -344,3 +401,36 @@ width: 200px;
   text-align: left;
 }
 
+/* media queries for footer */
+@media only screen and (max-width:768px){
+  .footer{
+
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    width: 130%;
+    flex-direction: column;
+    gap: 0rem;
+  }
+  
+  .footer-heading{
+    font-size: 18px;
+    margin-bottom: 0rem;
+  font-weight: bold;
+    padding-bottom: 1px;
+    
+  }
+  .footer_col1_title {
+ display: none;
+  }
+  .footer-desc{
+    display: none;
+  }
+  
+  .copyright .container p {
+    padding: 0;
+    font-size: 11px;
+    margin-top: 0rem;
+    text-align: left;
+  }}
+
+ 
