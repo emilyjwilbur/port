@@ -26,7 +26,8 @@ export default function HeroSection(){
                                         <span class="letter">e</span>
                                         <span class="letter">l</span>
                                         <span class="letter">l</span>
-                                        <span class="letter">o</span> </div>
+                                        <span class="letter">o</span>
+                                         </div>
                                     </div>
                                 </div>
                                 <div className="hero-content-line">
