@@ -6,7 +6,7 @@ export default function NavBar() {
   return (
     <div>
       <>
-        <Navbar bg="light" variant="light">
+        <Navbar fixed="top" bg="light" variant="light">
           <Container>
             <img className="logo" alt="logo" src={logo}/>
             <Nav className="me-right">

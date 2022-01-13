@@ -9,17 +9,72 @@
 .logo {
   width: 50px;
   transition: transform .7s ease-in-out;
+  
 }
 .logo:hover{
   
   transform: rotate(360deg);
 }
 
+
+
+
+
+
+
+
 /* hero section */
+
+
+.bounce {
+  display: flex;
+  align-items: center;
+	color: #323232;
+  height: 100%;
+}
+.letter {
+  animation: bounce 1.75s cubic-bezier(0.2, 2, .75, 1.5) alternate;
+  animation-iteration-count: 1;
+  -webkit-animation-fill-mode: forwards;
+  display: inline-block;
+  margin-top: 2em;
+  
+  
+}
+
+.letter:nth-of-type(1) {
+  animation-delay: -0.083333333s;
+}
+.letter:nth-of-type(3) {
+  animation-delay: 0.0833333333s;
+}
+.letter:nth-of-type(4) {
+  animation-delay: 0.1666666667s;
+}
+.letter:nth-of-type(5) {
+  animation-delay: 0.25s;
+}
+.letter:nth-of-type(6) {
+  animation-delay: 0.3333333333s;
+}
+
+
+@keyframes bounce {
+  0% {
+    transform: translate3d(0, 0, 0);
+    
+  }
+  100% {
+    transform: translate3d(0, -1em, 0);
+    
+  }
+}
+
 
 
 .hero{
   height: 100%;
+
 }
 .container{
   width: 100%;
@@ -31,11 +86,13 @@
   justify-content: space-between;
   margin: 0 24px;
   height: 100vh;
+  
 }
 
 .hero-content {
   width: 50%;
   display: flex;
+  
 }
 .hero-content-inner{
 
@@ -43,12 +100,18 @@
   margin: 0 auto;
   color: #323232
 }
+
+
+
+
 .hero-content-line-inner{
   font-weight: 900;
   font-size: 65px;
-  
   display: flex;
 }
+
+
+
 .hero-content-line{
   margin: 0;
   height: 75px;
@@ -109,11 +172,91 @@ button:focus{
 
 .hero-images{
   width: 50%;
+  animation: slideMe 2.8s ease-in;
+ 
+
 
 }
 .hero-image .headshot{
   width: 400px;
+  
+
+ 
+
 }
+
+@keyframes slideMe {
+  0%{
+    transform: skewx(0deg) translateX(700px);
+    opacity: 0;
+  }
+  60%{
+    transform: translateX(0px);
+    opacity: .2;
+  }
+  62%{
+    transform: skewX(0deg) translateX(-30px);
+    opacity: .3;
+  }
+  70%{
+    transform: skew(5deg);
+    opacity: .4;
+  }
+  80%{
+    transform: skew(0deg) translate(0);
+    opacity: .6;
+  }
+  90%{
+    transform: skew(2deg);
+    opacity: .7;
+  }
+  97%{
+    transform: skew(0deg);
+    opacity: .8;
+  }
+
+  100%{
+    transform: skew(0deg);
+    opacity: .9;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.hero_scrollDown  {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  position: absolute;
+  bottom:10px;
+  width:50px;
+  right: 50px;
+}
+.hero_scrollDown p {
+  font-size: 15px;
+  transform: translateY(-70px) rotate(90deg);
+  letter-spacing: .6rem;
+  text-transform: uppercase;
+}
+.hero_scrollDown img {
+  max-height: 45px;
+  width:16px;
+  margin: 0 auto;
+  object-fit: contain;
+}
+
+
+
 
 /* media queries for hero section */
 
