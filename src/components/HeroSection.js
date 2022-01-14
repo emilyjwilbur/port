@@ -1,14 +1,74 @@
-import React, {useRef, useEffect} from "react";
+import React, {useRef, useEffect, useState} from "react";
 import headshot from '../assets/images/headshot.png';
 import {HiArrowNarrowRight} from 'react-icons/hi';
 import SocialMediaArrow from '../assets/images/arrow.png';
+
+import { ToastContainer , Toast} from "react-bootstrap";
 
 
 
 
 export default function HeroSection(){
+  
+const [show, setShow] = useState(true);
+
+function useOutsideAlerter(ref){
+    useEffect(() => {
+        function handleClickOutside(event) {
+            if (ref.current && !ref.current.contains(event.target)){
+                setShow(false);
+            }
+        }
+        document.addEventListener("mousedown", handleClickOutside);
+        return () => {
+            document.removeEventListener("mousedown", handleClickOutside)
+        };
+    }, [ref]);
+}
+
+const wrapperRef = useRef(null);
+useOutsideAlerter(wrapperRef);
     return(
         <div className="hero">
+
+
+
+
+<div className="message">
+<ToastContainer>
+  <Toast onClose={() => setShow(false)}
+  data-testid="toast"
+  show={show}
+  delay={20000}
+  autohide
+  ref={wrapperRef}
+  >
+    <Toast.Header closeButton={false}>
+      <img src="holder.js/20x20?text=%20" className="rounded me-2" alt="" />
+      <strong className="me-auto">Bootstrap</strong>
+      <small className="text-muted">just now</small>
+    </Toast.Header>
+    <Toast.Body>See? Just like this.</Toast.Body>
+  </Toast>
+  <Toast>
+    <Toast.Header>
+      <img src="holder.js/20x20?text=%20" className="rounded me-2" alt="" />
+      <strong className="me-auto">Emily</strong>
+      <small className="text-muted">2 seconds ago</small>
+    </Toast.Header>
+    <Toast.Body>I'm glad you're here!</Toast.Body>
+  </Toast>
+</ToastContainer>
+</div>
+
+
+
+
+
+
+
+
+
 
 
             <div className="container">

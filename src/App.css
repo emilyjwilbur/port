@@ -32,6 +32,16 @@ li {
   margin-left: -49% !important;
 }
 
+/* message from me */
+.message{
+  float: right;
+  margin-right: 20px;
+  margin-top: 20px;
+
+}
+
+
+
 /* hero section */
 
 .bounce {
@@ -159,6 +169,9 @@ button:focus {
   left: 140px;
   color: white;
 }
+
+
+
 
 .hero-images {
   width: 50%;
