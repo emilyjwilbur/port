@@ -37,7 +37,7 @@ li {
   float: right;
   margin-right: 20px;
   margin-top: 20px;
-
+display: flex;
 }
 
 
@@ -274,13 +274,14 @@ button:focus {
     display: block;
     width: 80%;
     margin-left: 0;
-    margin-top: -200px;
+    margin-top: -500px;
   }
   .hero-image .headshot {
-    margin-top: 0rem;
+    margin-top: 15rem;
     margin-left: 0px;
     width: 200px;
   }
+  
 }
 
 /* footer section */

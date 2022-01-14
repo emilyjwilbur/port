@@ -29,12 +29,13 @@ function useOutsideAlerter(ref){
 const wrapperRef = useRef(null);
 useOutsideAlerter(wrapperRef);
     return(
+        <>
+
+
+        
         <div className="hero">
 
-
-
-
-<div className="message">
+        <div className="message">
 <ToastContainer>
   <Toast onClose={() => setShow(false)}
   data-testid="toast"
@@ -60,15 +61,6 @@ useOutsideAlerter(wrapperRef);
   </Toast>
 </ToastContainer>
 </div>
-
-
-
-
-
-
-
-
-
 
 
             <div className="container">
@@ -127,7 +119,7 @@ useOutsideAlerter(wrapperRef);
 
        </div>
 
-        
+       </>
        
        
     )
