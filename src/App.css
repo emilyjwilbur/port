@@ -36,7 +36,7 @@ li {
 .message{
   float: right;
   margin-right: 20px;
-  margin-top: 20px;
+  margin-top: 110px;
 display: flex;
 }
 
@@ -241,48 +241,92 @@ button:focus {
 
 /* media queries for hero section */
 
-@media only screen and (max-width: 600px) {
-  .hero-content {
-    width: 100%;
-    position: relative;
-    top: 20%;
+@media only screen and (max-width: 480px) {
+  
+ 
+  .hero-content-inner {
+    width: 400px;
+    margin: 0 auto;
+    color: #323232;
   }
-
-  .hero_scrollDown {
-    display: none;
-  }
-  .hero-image .headshot {
-    width: 50%;
-    animation: slideMe 2.8s ease-in;
-    padding-top: 5rem;
-  }
+.subtitle-hero{
+  margin-top: 70px;
+}
+  
   .hero-content-line-inner {
-    font-weight: 900;
+    font-weight: 400;
     font-size: 45px;
     display: flex;
   }
-  p {
-    display: flex;
-    width: 70%;
-    font-size: 15px;
-    line-height: 24px;
-    font-weight: 300;
-  }
-}
-@media only screen and (max-width: 768px) {
-  .hero-content {
-    display: block;
-    width: 80%;
-    margin-left: 0;
-    margin-top: -500px;
-  }
-  .hero-image .headshot {
-    margin-top: 15rem;
-    margin-left: 0px;
-    width: 200px;
+  
+  .hero-content-line {
+    height: 55px;
   }
   
+  p {
+    
+    display: flex;
+    font-size: 20px;
+    line-height: 27px;
+    font-weight: 300;
+  }
+  .hero-images {
+    width: 50%;
+    animation: slideMe 2.8s ease-in;
+  }
+  .hero-image .headshot {
+    width: 200px;
+    margin-right: 30px;
+  }
+
+
+
+.hero_scrollDown {
+  
+  gap: .2rem;
+  right: 0px;
 }
+.hero_scrollDown p {
+  font-size: 12px;
+  letter-spacing: 0.5rem;
+ 
+}
+.hero_scrollDown img {
+  max-height: 35px;
+  width: 15px;
+}
+.message{
+  float: right;
+  margin-top: 140px;
+  display: none;
+  
+}
+
+
+
+
+
+  }
+ 
+
+@media only screen and (max-width: 600px){
+  
+
+}
+
+@media only screen and (max-width: 768px) {
+  
+}
+
+  @media only screen and (max-width: 992px){
+
+  }
+
+  @media only screen and (max-width: 1280px){
+
+  }
+  
+
 
 /* footer section */
 .footer {
@@ -346,13 +390,21 @@ button:focus {
 }
 
 /* media queries for footer */
+
+@media only screen and (max-width: 480px){
+ 
+
+}
+
+
 @media only screen and (max-width: 768px) {
   .footer {
-    padding-top: 1rem;
-    padding-bottom: 1rem;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
     width: 130%;
     flex-direction: column;
     gap: 0rem;
+    margin-left: -50px;
   }
 
   .footer-heading {
