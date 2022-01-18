@@ -6,11 +6,18 @@ import styled from "styled-components";
 const ContactBannerStyles = styled.div`
 
 padding: 10rem 0;
+
 .banner-text{
     font-size:20px;
     text-align:center;
     justify-content:center;
     
+}
+.you{
+    color:#fafafa;
+    font-size:30px;
+    text-align:center;
+    justify-content:center;
 }
 .contactBanner_wrapper{
     background-color: #cecdcd;
@@ -22,11 +29,17 @@ margin-bottom: -30px;
 }
 .bannerBtn{
     color:white;
-    border: solid black;
-    background-color:black;
+    border: 2px solid #e07341;
+    background-color:#e07341;
     padding:10px;
     justify-content: center;
     margin: 0 auto;
+    border-radius: 12px;
+    font-weight: 500;
+}
+.bannerBtn:hover{
+    background-color:gray;
+    border: gray 2px solid;
 }
 .contactBanner_heading{
 font-size: 30px;
@@ -55,7 +68,7 @@ export default function ContactBanner(){
                     Have a project in mind?
                 </p>
                 <h3 className="contactBanner_heading">
-                    Let me help you.
+                    Let me help <span className="you">you</span>.
                 </h3>
                 <button className="bannerBtn" btnLink="/contact">CONTACT</button>
             </div>
