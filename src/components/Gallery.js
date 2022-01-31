@@ -1,11 +1,11 @@
 import React, { useState } from 'react';
 import CloseIcon from '@mui/icons-material/Close';
-
 import Img1 from '../assets/images/noods.png';
 import Img2 from '../assets/images/myrtle.png';
 import Img3 from '../assets/images/autumn.png';
 import Img4 from '../assets/images/bullington.png';
-import Img5 from '../assets/images/parks.png';
+import Img5 from '../assets/images/topfit.png';
+import Img6 from '../assets/images/parks.png';
 
 
 
@@ -37,6 +37,12 @@ export default function Gallery(){
             id: 5,
             imgSrc: Img5,
         },
+        {
+
+            id: 6,
+            imgSrc: Img6,
+        },
+     
        
     ]
     const [model, setModel] = useState(false);

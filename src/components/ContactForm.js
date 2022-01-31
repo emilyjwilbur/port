@@ -3,6 +3,7 @@ import { useState } from 'react';
 import styled from 'styled-components';
 import emailjs from 'emailjs-com';
 
+
 const Result = () => {
     return(
         <p>Your message has been successfully sent! I will contact you shortly.</p>
@@ -14,26 +15,27 @@ width:100%;
 
 .form-group{
     width:100%;
-    margin-bottom:2rem;
+    margin-bottom:1rem;
+  
  
     
 }
 label{
-    font-size: 20px;
+    font-size: 18px;
     background-color:white;
+   
   
 }
 input,
 textarea{
     width:100%;
-    font-size:20px;
+    font-size:18px;
     padding:1rem;
     color:black;
-    background-color: lightgray;
-    outline:none;
-    border:none;
-    border-radius:8px;
-    margin-top:1rem;
+    background-color: #fafafa;
+    border:solid #dedede 1px;
+    border-radius:0px;
+    margin-top:.5rem;
     
 }
 textarea{

@@ -1,6 +1,6 @@
 import { v4 as uuidv4 } from 'uuid';
 import Noods from '../images/noods.png';
-
+import TopFit from '../images/topfit.png';
 import Autumn from '../images/autumn.png';
 import Bullington from '../images/bullington.png';
 import Parks from '../images/parks.png';
@@ -15,6 +15,14 @@ const projects = [
       'WordPress site for Myrtle Hill Consulting in Atlanta, GA.',
     img: Myrtle,
     link: 'https://www.myrtlehillconsulting.com/',
+  },
+  {
+    id: uuidv4(),
+    name: 'TopFit',
+    desc:
+      'Mock-up version for TopFit Homepage Design. Incorporated custom-built meditation app, audio mp3 functionality, custom form, etc. Deployed with Netlify. ',
+    img: TopFit,
+    link: 'https://priceless-archimedes-bbec53.netlify.app/',
   },
   {
     id: uuidv4(),
@@ -49,6 +57,7 @@ const projects = [
     img: Parks,
     link: 'https://ls-t.github.io/Parks-N-Parkas/'
   },
+
 
 ];
 

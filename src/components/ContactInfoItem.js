@@ -3,13 +3,16 @@ import styled from "styled-components";
 import {MdPlace} from 'react-icons/md';
 
 const ItemStyles = styled.div`
-padding:2rem;
+padding:1rem;
 display: flex;
 align-items: center;
+p{
+    font-size:18px;
+    
+}
 .icon{
-    color: #e07341;
-    padding: 1.3rem;
-    align-items:center;
+    color: black;
+    padding: 1rem;
     font-size: 20px;
 
     

@@ -4,56 +4,66 @@ import ContactInfoItem from './ContactInfoItem';
 import { MdEmail, MdLocalPhone } from "react-icons/md";
 import styled from 'styled-components';
 
+
+
 const ContactSectionStyles = styled.div `
 padding: 10rem 0;
+
+
+
 .contactSection_wrapper{
     display:flex;
-    gap: 2rem;
-    margin-top: 5rem;
     justify-content: space-between;
-    position: relative;
+    flex-direction:column;
 }
 
 .p-contact{
-    font-weight:400;
+    font-weight:900;
+    font-size: 45px;
+    justify-content:center;
+    margin-bottom: 50px;
 }
 .contactHead{
-    color:#e07341;
-    font-size: 60px;
+    font-size: 25px;
+    font-weight: 400;
     display:flex;
-    margin-bottom:15px;
+    margin-bottom:20px;
+    justify-content:center;
 }
-.contactSection_wrapper::after{
-    position:absolute;
-    content:'';
-    width: 2px;
-    height: 50%;
-    background-color: gray;
-    left: 50%;
-    top: 30%;
-    transform: translate(-50%, -50%);
-}
+
 .left{
-    width: 100%;
-    max-width: 500px;
+    justify-content: center;
+    display: flex;
+   
 }
 .right{
-    max-width: 500px;
-    width: 100%;
+margin-left: 30% ;
 }
+
 @media only screen and (max-width: 768px) {
     .contactSection_wrapper{
         flex-direction: column;
+        align-items:center;
+        margin-bottom: -30px;
+       
     }
-    .contactSection_wrapper::after{
-        display: none;
+
+    .contactHead{
+        font-size: 18px;
+        font-weight: 300;
+        
     }
-    .left,
+   
+    .left
+    {
+        flex-direction: column;
+      margin-bottom:0
+       
+    },
     .right{
-        max-width: 100%;
-    }
-    .right{
-        padding: 4rem 2rem 2rem 2rem;
+        margin-left: 10px;
+        margin-right: 25px;
+        background-image: {}
     }
 }
 `;
@@ -62,10 +72,13 @@ padding: 10rem 0;
 export default function ContactSection(){
     return(
         <>
+        
         <ContactSectionStyles>
+       
             <div className="container">
-               <p className='p-contact'>contact</p>
-                <h2 className='contactHead'>I'm here to help you level up.</h2>
+               <p className='p-contact'>LET'S CHAT!</p>
+                <h3 className='contactHead'>I'm currently open for work and would love to hear from you.</h3>
+                {/* <img className='bannerImg'  alt='img' src={Airplane}/> */}
                 
               
                 <div className="contactSection_wrapper">
@@ -77,8 +90,10 @@ export default function ContactSection(){
                     </div>
                     <div className="right">
                         <ContactForm />
+        
                        
                     </div>
+                    
                 </div>
 
             </div>
