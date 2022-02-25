@@ -1,6 +1,5 @@
 import React, { useRef, useEffect, useState } from "react";
 import headshot from "../assets/images/headshot.png";
-import { HiArrowNarrowRight } from "react-icons/hi";
 import SocialMediaArrow from "../assets/images/arrow.png";
 import LearnButton from "./LearnMoreButton";
 

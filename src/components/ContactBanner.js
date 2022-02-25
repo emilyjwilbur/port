@@ -30,7 +30,6 @@ margin-bottom: -30px;
 }
 .bannerBtn{
     color:white;
-    border: 2px solid #e07341;
     background-color:#e07341;
     padding:10px;
     justify-content: center;
@@ -40,7 +39,7 @@ margin-bottom: -30px;
 }
 .bannerBtn:hover{
     background-color:gray;
-    border: gray 2px solid;
+    border: none;
 }
 .contactBanner_heading{
 font-size: 30px;

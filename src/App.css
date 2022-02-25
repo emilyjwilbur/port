@@ -139,6 +139,9 @@ p {
   top: 50%;
   left: -68px;
 }
+.about-button {
+  color: black;
+}
 button {
   background: none;
   border: none;
