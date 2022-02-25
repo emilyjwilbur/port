@@ -1,5 +1,6 @@
 import React from "react";
 import styled from "styled-components";
+import ContactButton from "./ContactButton";
 
 
 
@@ -70,7 +71,7 @@ export default function ContactBanner(){
                 <h3 className="contactBanner_heading">
                     Let me help <span className="you">you</span>.
                 </h3>
-                <button className="bannerBtn" btnLink="/contact">CONTACT</button>
+                <ContactButton btnText="Contact Me" btnLink="/contact" />
             </div>
         </div>
     </ContactBannerStyles>

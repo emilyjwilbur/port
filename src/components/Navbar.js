@@ -34,6 +34,7 @@ export default function NavBar() {
            <NavLink className="navlinks"
            to='/contact'
            role='button'
+           
            >
              Contact
            </NavLink>

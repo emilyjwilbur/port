@@ -59,6 +59,7 @@ export default function HeroSection() {
                     <div className="bounce">
                       <div className="hero-content-line-inner">
                         {" "}
+                        
                         <span class="letter">H</span>
                         <span class="letter">e</span>
                         <span class="letter">l</span>
@@ -74,7 +75,7 @@ export default function HeroSection() {
 
                 <p className="subtitle-hero">A Web Developer & Designer based out of Atlanta, GA.</p>
                 <div className="btn-row">
-                  <button className="about-button">
+                  <button className="about-button" >
                     LEARN MORE
                     <div className="social-icons">
                       <HiArrowNarrowRight />

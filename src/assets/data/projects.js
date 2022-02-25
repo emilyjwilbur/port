@@ -5,6 +5,7 @@ import Autumn from '../images/autumn.png';
 import Bullington from '../images/bullington.png';
 import Parks from '../images/parks.png';
 import Myrtle from '../images/myrtle.png';
+import Employee from '../images/employee.png';
 
 const projects = [
 
@@ -12,7 +13,7 @@ const projects = [
     id: uuidv4(),
     name: 'Myrtle Hill Consulting',
     desc:
-      'WordPress site for Myrtle Hill Consulting in Atlanta, GA.',
+      'WordPress site customization for Myrtle Hill Consulting in Atlanta, GA.',
     img: Myrtle,
     link: 'https://www.myrtlehillconsulting.com/',
   },
@@ -20,7 +21,7 @@ const projects = [
     id: uuidv4(),
     name: 'TopFit',
     desc:
-      'Mock-up version for TopFit Homepage Design. Incorporated custom-built meditation app, audio mp3 functionality, custom form, etc. Deployed with Netlify. ',
+      'Mock-up version for TopFit Homepage Design built with HTML, CSS & JavaScript. Incorporated custom-built meditation app, audio mp3 functionality, custom form, etc. Deployed with Netlify. ',
     img: TopFit,
     link: 'https://priceless-archimedes-bbec53.netlify.app/',
   },
@@ -28,7 +29,7 @@ const projects = [
     id: uuidv4(),
     name: 'Autumn Landscape',
     desc:
-      'WordPress site for Autumn Landscape Co. in Atlanta, GA.',
+      'WordPress theme customization for Autumn Landscape Co. in Atlanta, GA.',
     img: Autumn,
     link:'https://autumnlandscape.com/'
   },
@@ -36,7 +37,7 @@ const projects = [
     id: uuidv4(),
     name: 'Noods ATL',
     desc:
-      'Shopify store for NoodsATL',
+      'Shopify store customization for NoodsATL',
     img: Noods,
     link: 'https://noodsatl.com/',
   },
@@ -44,7 +45,7 @@ const projects = [
     id: uuidv4(),
     name: "Bullington Clothing",
     desc:
-      'Shopify store for Bullington CLothing at St. Simons Island, GA',
+      'Shopify store customization for Bullington Clothing at St. Simons Island, GA',
     img: Bullington,
     link: 'https://www.stevebullington.com/'
   },
@@ -57,7 +58,15 @@ const projects = [
     img: Parks,
     link: 'https://ls-t.github.io/Parks-N-Parkas/'
   },
+  {
+    id: uuidv4(),
+    name: 'Employee Directory',
+    desc:
+      'A React app that leverages the Random User database to generate a list of random employees. This was an activity to get more familiar with setting state, mapping arrays and doing on-page sorting.',
+    img: Employee,
+    link: 'https://radiant-mountain-52951.herokuapp.com/'
 
+  },
 
 ];
 
