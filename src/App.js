@@ -7,12 +7,14 @@ import NavBar from "./components/Navbar";
 import Contact from "./pages/Contact";
 import Footer from "./components/Footer";
 import Projects from "./pages/Projects";
+import ScrollToTop from "./components/ScrollToTop";
 
 function App() {
   return (
     <>
       <Router>
         <NavBar />
+        <ScrollToTop />
         <Switch>
           <Route path="/about">
             <About />

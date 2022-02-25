@@ -2,6 +2,7 @@ import React, { useRef, useEffect, useState } from "react";
 import headshot from "../assets/images/headshot.png";
 import { HiArrowNarrowRight } from "react-icons/hi";
 import SocialMediaArrow from "../assets/images/arrow.png";
+import LearnButton from "./LearnMoreButton";
 
 import { ToastContainer, Toast } from "react-bootstrap";
 
@@ -77,9 +78,10 @@ export default function HeroSection() {
                 <div className="btn-row">
                   <button className="about-button" >
                     LEARN MORE
-                    <div className="social-icons">
+                    {/* <div className="social-icons">
                       <HiArrowNarrowRight />
-                    </div>
+                    </div> */}
+                     <LearnButton btnText=">" btnLink="/about"/>
                   </button>
                 </div>
               </div>
