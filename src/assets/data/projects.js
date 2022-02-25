@@ -6,6 +6,7 @@ import Bullington from '../images/bullington.png';
 import Parks from '../images/parks.png';
 import Myrtle from '../images/myrtle.png';
 import Employee from '../images/employee.png';
+import Meditation from '../images/meditation.png';
 
 const projects = [
 
@@ -24,6 +25,15 @@ const projects = [
       'Mock-up version for TopFit Homepage Design built with HTML, CSS & JavaScript. Incorporated custom-built meditation app, audio mp3 functionality, custom form, etc. Deployed with Netlify. ',
     img: TopFit,
     link: 'https://priceless-archimedes-bbec53.netlify.app/',
+  },
+  {
+    id: uuidv4(),
+    name: 'Meditation App',
+    desc:
+      'A meditation app built using HTML, CSS & JavaScript.',
+    img: Meditation,
+    link: 'https://priceless-archimedes-bbec53.netlify.app/meditation.html'
+
   },
   {
     id: uuidv4(),
@@ -67,6 +77,7 @@ const projects = [
     link: 'https://radiant-mountain-52951.herokuapp.com/'
 
   },
+
 
 ];
 
