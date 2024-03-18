@@ -79,22 +79,22 @@ const projects = [
     link: 'https://radiant-mountain-52951.herokuapp.com/'
 
   },
-  {
-    id:uuidv4(),
-    name: 'LG-MRI',
-    desc:
-    'A WordPress website revamp and development of a new information architecture. LG-MRI BoldVu displays are renowned for their top-notch image quality, making them highly sought-after assets.',
-    img: LGMRI,
-  },
-  {
-    id:uuidv4(),
-    name: 'Sages Networks',
-    desc:
-    '',
-    img: Sages,
-    link:'https://www.sagesnetworks.com/'
+  // {
+  //   id:uuidv4(),
+  //   name: 'LG-MRI',
+  //   desc:
+  //   'A WordPress website revamp and development of a new information architecture. LG-MRI BoldVu displays are renowned for their top-notch image quality, making them highly sought-after assets.',
+  //   img: LGMRI,
+  // },
+  // {
+  //   id:uuidv4(),
+  //   name: 'Sages Networks',
+  //   desc:
+  //   '',
+  //   img: Sages,
+  //   link:'https://www.sagesnetworks.com/'
 
-  }
+  // }
 
 
 ];
