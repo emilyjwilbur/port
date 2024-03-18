@@ -82,7 +82,7 @@ const projects = [
     id:uuidv4(),
     name: 'LG-MRI',
     desc:
-    'A WordPress website restructure and development of a new information architecture. LG-MRI BoldVu displays offer the highest quality images creating the most in-demand inventory and include the most sophisticated self-monitoring technology.',
+    'A WordPress website revamp and development of a new information architecture. LG-MRI BoldVu displays are renowned for their top-notch image quality, making them highly sought-after assets.',
     img: LGMRI,
   },
 
