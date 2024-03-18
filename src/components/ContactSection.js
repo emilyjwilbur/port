@@ -76,7 +76,7 @@ export default function ContactSection(){
         <ContactSectionStyles>
        
             <div className="container">
-               <p className='p-contact'>LET'S CHAT!</p>
+               <p className='p-contact'>Let's chat!</p>
                 <h3 className='contactHead'>I'm currently open for work and would love to hear from you.</h3>
                 {/* <img className='bannerImg'  alt='img' src={Airplane}/> */}
                 
