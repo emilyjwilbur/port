@@ -84,7 +84,7 @@ export default function Footer(){
            <div className="copyright">
                <div className="container">
                    <p>
-                     © 2022 - Emily Wilbur | Made with ♥ in ATL. </p>
+                     © 2024 - Emily Wilbur | Made with ♥ in ATL. </p>
 
                </div>
 
