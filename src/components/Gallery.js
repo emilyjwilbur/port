@@ -5,7 +5,7 @@ import Img2 from '../assets/images/myrtle.png';
 import Img3 from '../assets/images/autumn.png';
 import Img4 from '../assets/images/bullington.png';
 import Img5 from '../assets/images/topfit.png';
-import Img6 from '../assets/images/LGMRI';
+import Img6 from '../assets/images/LGMRI.png';
 
 
 
