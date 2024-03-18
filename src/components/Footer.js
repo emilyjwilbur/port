@@ -9,7 +9,7 @@ export default function Footer(){
 <div className="footer">
                 <div className="footer_col1">
                     <h1 className="footer_col1_title">Emily Wilbur</h1>
-                    <p className="footer-desc">I'm a freelance web designer and developer from Atlanta, Georgia. I make websites that have unique designs and good performance rates.</p>
+                    <p className="footer-desc">I'm a web developer from Atlanta, Georgia. I make websites that have unique designs and good performance rates.</p>
                     </div>
                     <div className="footer_col2">
                        
