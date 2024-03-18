@@ -64,7 +64,7 @@ export default function About() {
             </h2>
             <div className="about_info">
               <PText>
-                I'm a Freelance Web Developer & Designer from Atlanta, GA, passionate
+                I'm a Freelance Web Developer from Atlanta, GA, passionate
                 about developing and designing web applications that are easy to use and
                 appealing to the public. <br /> <br />
                 I believe quality design is rooted in both simplicity and
