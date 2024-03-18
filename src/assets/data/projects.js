@@ -7,6 +7,7 @@ import Parks from '../images/parks.png';
 import Myrtle from '../images/myrtle.png';
 import Employee from '../images/employee.png';
 import Meditation from '../images/meditation.png';
+import LGMRI from '../images/LGMRI.png'
 
 const projects = [
 
@@ -76,6 +77,13 @@ const projects = [
     img: Employee,
     link: 'https://radiant-mountain-52951.herokuapp.com/'
 
+  },
+  {
+    id:uuidv4(),
+    name: 'LG-MRI',
+    desc:
+    'A WordPress website restructure and development of a new information architecture. LG-MRI BoldVu displays offer the highest quality images creating the most in-demand inventory and include the most sophisticated self-monitoring technology.',
+    img: LGMRI,
   },
 
 
