@@ -7,7 +7,8 @@ import Parks from '../images/parks.png';
 import Myrtle from '../images/myrtle.png';
 import Employee from '../images/employee.png';
 import Meditation from '../images/meditation.png';
-import LGMRI from '../images/LGMRI.png'
+import LGMRI from '../images/LGMRI.png';
+import Sages from '../images/sages.png';
 
 const projects = [
 
@@ -85,6 +86,15 @@ const projects = [
     'A WordPress website revamp and development of a new information architecture. LG-MRI BoldVu displays are renowned for their top-notch image quality, making them highly sought-after assets.',
     img: LGMRI,
   },
+  {
+    id:uuidv4(),
+    name: 'Sages Networks',
+    desc:
+    '',
+    img: Sages,
+    link:'https://www.sagesnetworks.com/'
+
+  }
 
 
 ];
