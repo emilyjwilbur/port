@@ -73,7 +73,7 @@ export default function HeroSection() {
                   </div>
                 </h1>
 
-                <p className="subtitle-hero">A Web Developer & Designer based out of Atlanta, GA.</p>
+                <p className="subtitle-hero">A Web Developer based out of Atlanta, GA.</p>
                 <div className="btn-row">
                   <button className="about-button" >
                     LEARN MORE
