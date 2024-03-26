@@ -113,8 +113,8 @@ display: flex;
 }
 
 .hero-content-line {
-  /* margin: 0;
-  height: 75px; */
+  margin: 0;
+  height: 75px;
 }
 
 p {
