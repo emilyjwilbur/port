@@ -58,7 +58,7 @@ export default function About() {
             <h2 className="about_heading">I build things for the web.</h2>
             <div className="about_info">
               <PText>
-                As a FrontEnd Web Developer hailing from Atlanta, GA, I'm
+                As a frontend web developer, I'm
                 deeply passionate about crafting web applications that
                 seamlessly blend usability with aesthetic appeal. <br /> <br />{" "}
                 I firmly believe that the essence of great design lies in its
