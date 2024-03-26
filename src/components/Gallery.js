@@ -1,4 +1,4 @@
-import React, { useState, useRef, useEffect } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import CloseIcon from '@mui/icons-material/Close';
 import Img1 from '../assets/images/noods.png';
 import Img2 from '../assets/images/myrtle.png';
@@ -38,32 +38,21 @@ export default function Gallery() {
     const galleryRef = useRef(null);
 
     useEffect(() => {
-        const galleryItems = galleryRef.current.querySelectorAll('.pics');
-        const fadeInDelay = 100; // Adjust the delay as needed
-        galleryItems.forEach((item, index) => {
-            const itemTop = item.getBoundingClientRect().top;
-            const windowHeight = window.innerHeight;
-            if (itemTop < windowHeight) {
-                item.style.transition = `opacity 0.5s ease ${index * fadeInDelay}ms`;
-                item.style.opacity = 1;
-            }
-        });
-
-        const scrollHandler = () => {
+        const handleScroll = () => {
+            const galleryItems = galleryRef.current.querySelectorAll('.pics');
             galleryItems.forEach((item, index) => {
-                const itemTop = item.getBoundingClientRect().top;
-                const windowHeight = window.innerHeight;
-                if (itemTop < windowHeight) {
-                    item.style.transition = `opacity 0.5s ease ${index * fadeInDelay}ms`;
+                const rect = item.getBoundingClientRect();
+                if (rect.top < window.innerHeight) {
+                    item.style.transition = `opacity 0.5s ease ${index * 100}ms`;
                     item.style.opacity = 1;
                 }
             });
         };
 
-        window.addEventListener('scroll', scrollHandler);
+        window.addEventListener('scroll', handleScroll);
 
         return () => {
-            window.removeEventListener('scroll', scrollHandler);
+            window.removeEventListener('scroll', handleScroll);
         };
     }, []);
 
@@ -74,13 +63,11 @@ export default function Gallery() {
                 <CloseIcon onClick={() => setModel(false)} />
             </div>
             <div ref={galleryRef} className="gallery">
-                {data.map((item, index) => {
-                    return (
-                        <div className="pics" key={index} onClick={() => getImg(item.imgSrc)}>
-                            <img src={item.imgSrc} alt="photos" style={{ width: '100%' }} />
-                        </div>
-                    );
-                })}
+                {data.map((item, index) => (
+                    <div className="pics" key={index} onClick={() => getImg(item.imgSrc)}>
+                        <img src={item.imgSrc} alt="photos" style={{ width: '100%' }} />
+                    </div>
+                ))}
             </div>
         </>
     );
