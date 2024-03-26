@@ -9,7 +9,7 @@ import Img6 from '../assets/images/LGMRI.png';
 import Img7 from '../assets/images/sages.png';
 import Img8 from '../assets/images/telecom.png';
 import Img9 from '../assets/images/alert.jpg';
-import Img10 from '../assets/images/rarebreed.gif';
+import Img10 from '../assets/images/rarebreed.png';
 
 
 
