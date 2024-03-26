@@ -10,12 +10,18 @@ import Img7 from '../assets/images/sages.png';
 import Img8 from '../assets/images/telecom.png';
 import Img9 from '../assets/images/alert.jpg';
 import Img10 from '../assets/images/rarebreed.png';
+import Img11 from '../assets/images/litner.png';
 
 
 
 export default function Gallery(){
 
     let data = [
+        {
+
+            id: 11,
+            imgSrc: Img11,
+        },
         {
 
             id: 10,
