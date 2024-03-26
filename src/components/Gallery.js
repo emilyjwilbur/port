@@ -15,6 +15,15 @@ export default function Gallery(){
     let data = [
         {
 
+            id: 6,
+            imgSrc: Img6,
+        },
+        {
+            id: 7,
+            imgSrc:Img7,
+        },
+        {
+
             id: 1,
             imgSrc: Img1,
         },
@@ -38,15 +47,7 @@ export default function Gallery(){
             id: 5,
             imgSrc: Img5,
         },
-        {
-
-            id: 6,
-            imgSrc: Img6,
-        },
-        {
-            id: 7,
-            imgSrc:Img7,
-        },
+    
      
        
     ]
