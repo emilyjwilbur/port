@@ -85,6 +85,7 @@ display: flex;
 
 .hero {
   height: 100%;
+  background-color: #323232;
 }
 .container {
   width: 100%;
@@ -105,7 +106,7 @@ display: flex;
 .hero-content-inner {
   width: 400px;
   margin: 0 auto;
-  color: #323232;
+  color: #ffffff;
 }
 
 .hero-content-line-inner {
