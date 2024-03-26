@@ -22,7 +22,7 @@ li {
   display: block;
 }
 .navlinks:hover {
-  color: rgb(117, 116, 116);
+  color: #5f51d5;
   font-weight: 300;
 }
 .navbar-brand {
@@ -166,7 +166,7 @@ button:focus {
   display: flex;
   align-items: center;
   justify-content: center;
-  background: #e07341;
+  background: #5f51d5;
   height: 42px;
   width: 42px;
   border-radius: 100px;
