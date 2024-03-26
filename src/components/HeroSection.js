@@ -58,7 +58,7 @@ export default function HeroSection() {
                 <div className="hero-content-line">
                     <div className="hero-content-line-inner ">I turn ideas into</div>
                   </div>
-                  <div className="hero-content-line">
+                  <div>
                     <div className="bounce">
                       <div className="hero-content-line-inner">
                         {" "}
