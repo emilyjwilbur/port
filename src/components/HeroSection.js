@@ -60,11 +60,14 @@ export default function HeroSection() {
                       <div className="hero-content-line-inner">
                         {" "}
                         
-                        <span class="letter">H</span>
-                        <span class="letter">e</span>
-                        <span class="letter">l</span>
-                        <span class="letter">l</span>
-                        <span class="letter">o</span>
+                        <span class="letter">P</span>
+                        <span class="letter">R</span>
+                        <span class="letter">O</span>
+                        <span class="letter">D</span>
+                        <span class="letter">U</span>
+                        <span class="letter">C</span>
+                        <span class="letter">T</span>
+                        <span class="letter">S</span>
                       </div>
                     </div>
                   </div>
