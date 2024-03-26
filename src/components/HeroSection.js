@@ -55,25 +55,26 @@ export default function HeroSection() {
             <div className="hero-content">
               <div className="hero-content-inner">
                 <h1>
+                <div className="hero-content-line">
+                    <div className="hero-content-line-inner ">I turn ideas into</div>
+                  </div>
                   <div className="hero-content-line">
                     <div className="bounce">
                       <div className="hero-content-line-inner">
                         {" "}
                         
-                        <span class="letter">P</span>
-                        <span class="letter">R</span>
-                        <span class="letter">O</span>
-                        <span class="letter">D</span>
-                        <span class="letter">U</span>
-                        <span class="letter">C</span>
-                        <span class="letter">T</span>
-                        <span class="letter">S</span>
+                        <span class="letter">p</span>
+                        <span class="letter">r</span>
+                        <span class="letter">o</span>
+                        <span class="letter">d</span>
+                        <span class="letter">u</span>
+                        <span class="letter">c</span>
+                        <span class="letter">t</span>
+                        <span class="letter">s</span>
                       </div>
                     </div>
                   </div>
-                  <div className="hero-content-line">
-                    <div className="hero-content-line-inner ">I'm Emily. </div>
-                  </div>
+                 
                 </h1>
 
                 <p className="subtitle-hero">A frontend web developer based out of Atlanta, GA.</p>
