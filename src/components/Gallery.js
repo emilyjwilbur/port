@@ -7,12 +7,18 @@ import Img4 from '../assets/images/bullington.png';
 import Img5 from '../assets/images/topfit.png';
 import Img6 from '../assets/images/LGMRI.png';
 import Img7 from '../assets/images/sages.png';
+import Img8 from '../assets/images/telecom.png'
 
 
 
 export default function Gallery(){
 
     let data = [
+        {
+
+            id: 8,
+            imgSrc: Img8,
+        },
         {
 
             id: 6,
