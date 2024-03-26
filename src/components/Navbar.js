@@ -10,7 +10,7 @@ export default function NavBar() {
     
       <>
    
-        <Navbar className="justify-content-end" fixed="top" bg="dark" variant="dark">
+        <Navbar className="justify-content-end" fixed="top" bg="light" variant="light">
 
         <a className="navbar-brand" href="/">
           <img className="logo justify-content-center" alt="logo" src={logo}></img>
