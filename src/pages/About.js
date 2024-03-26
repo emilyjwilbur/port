@@ -60,7 +60,7 @@ export default function About() {
               I'm Emily.
               </p>
             <h2 className="about_heading">
-              A Freelance Web Developer & Designer
+              A Freelance Web Developer
             </h2>
             <div className="about_info">
               <PText>
