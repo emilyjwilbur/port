@@ -21,19 +21,18 @@ const AboutPageStyles = styled.div`
   .about_subheading {
     font-size: 2.2rem;
     margin-bottom: 2rem;
-  
+
     span {
       background-color: gray;
-      color:white;
-      padding: .5rem;
+      color: white;
+      padding: 0.5rem;
       border-radius: 3px;
-      margin:10px;
+      margin: 10px;
     }
   }
   .about_heading {
     font-size: 3rem;
     margin-bottom: 3rem;
- 
   }
   .about_info {
     margin-bottom: 4rem;
@@ -41,13 +40,12 @@ const AboutPageStyles = styled.div`
       max-width: 100%;
     }
   }
-  .about_info_items{
-    margin-top:10rem;
-   
-}
-.about_info_item{
-    margin-top:10rem;
-}
+  .about_info_items {
+    margin-top: 10rem;
+  }
+  .about_info_item {
+    margin-top: 10rem;
+  }
 `;
 
 export default function About() {
@@ -56,94 +54,60 @@ export default function About() {
       <div className="container">
         <div className="top-section">
           <div className="left">
-            <p className="about_subheading">
-              I'm Emily.
-              </p>
-            <h2 className="about_heading">
-              A Freelance Web Developer
-            </h2>
+            <p className="about_subheading">I'm Emily.</p>
+            <h2 className="about_heading">A Freelance Web Developer</h2>
             <div className="about_info">
               <PText>
-                I'm a Freelance Web Developer from Atlanta, GA, passionate
-                about developing and designing web applications that are easy to use and
-                appealing to the public. <br /> <br />
-                I believe quality design is rooted in both simplicity and
-                elegance; therefore, I build and contribute to applications that
-                are simple, yet effective, and put user interface first. I
-                earned a certificate in Full Stack Web Development from the
-                Georgia Institute of Technology to add technical expertise
-                alongside my Bachelor of Science in Journalism & Mass
-                Communication from Kent State University. <br /> <br />I have
-                demonstrated skills in JavaScript, CSS, HTML, ReactJS,
-                responsive web design, NodeJS, jQuery, Bootstrap and a variety
-                of other technologies that help to conquer both my own
-                challenges and others.
+                As a Freelance Web Developer hailing from Atlanta, GA, I'm
+                deeply passionate about crafting web applications that
+                seamlessly blend usability with aesthetic appeal. <br /> <br />{" "}
+                I firmly believe that the essence of great design lies in its
+                simplicity and elegance. Thus, my mission is to create
+                applications that prioritize user interface while maintaining
+                simplicity and effectiveness. Equipped with a certificate in
+                Full Stack Web Development from the Georgia Institute of
+                Technology and a Bachelor of Science in Journalism & Mass
+                Communication from Kent State University, I bring a blend of
+                technical expertise and creative insight to every project.
               </PText>
             </div>
-           
           </div>
           <div className="right"></div>
         </div>
         <div className="about_info_items">
-            <div className="about_info_item">
-                
-                <AboutInfoItem 
-                title="Education"
-                items={[
-                    'Kent State University | BS in Journalism & Mass Communication',
-                    'Georgia Institute of Technology | Certificate in Full-Stack Web Development'
-                ]}
+          <div className="about_info_item">
+            <AboutInfoItem
+              title="Education"
+              items={[
+                "Kent State University | BS in Journalism & Mass Communication",
+                "Georgia Institute of Technology | Certificate in Full-Stack Web Development",
+              ]}
+            />
+          </div>
 
-                />
-            </div>
+          <div className="about_info_item">
+            <AboutInfoItem
+              title="FrontEnd"
+              items={["HTML", "CSS", "JavaScript", "jQuery", "React"]}
+            />
+          </div>
 
-            <div className="about_info_item"> 
-                <AboutInfoItem 
-                title="FrontEnd"
-                items={[
-                    'HTML',
-                    'CSS',
-                    'JavaScript',
-                    'jQuery',
-                    'React',
-                ]}
+          <div className="about_info_item">
+            <AboutInfoItem
+              title="BackEnd"
+              items={["Node", "Express", "MongoDB", "MySql", "Firebase"]}
+            />
+          </div>
 
-                />
-            </div>
-
-            <div className="about_info_item"> 
-                <AboutInfoItem 
-                title="BackEnd"
-                items={[
-                    'Node',
-                    'Express',
-                    'MongoDB',
-                    'MySql',
-                    'Firebase'
-                ]}
-
-                />
-            </div>
-
-            <div className="about_info_item"> 
-                <AboutInfoItem 
-                title="Design"
-                items={[
-                    'Photoshop',
-                    'Figma',
-                    'InDesign',
-                    'Illustrator',
-                    
-                ]}
-
-                />
-            </div>
-
-
-            </div>
-
+          <div className="about_info_item">
+            <AboutInfoItem
+              title="Design"
+              items={["Photoshop", "Figma", "InDesign", "Illustrator"]}
+            />
+          </div>
         </div>
-    <ContactBanner />
+      </div>
+      <ContactBanner />
     </AboutPageStyles>
   );
 }
