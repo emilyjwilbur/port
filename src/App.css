@@ -51,28 +51,25 @@ display: flex;
   height: 100%;
 }
 .letter {
-  animation: bounce 1.75s cubic-bezier(0.2, 2, 0.75, 1.5) alternate;
+  animation: bounce 1.75s cubic-bezier(0.2, 2, 0.75, 1.5) infinite alternate;
+  animation-delay: calc(-0.083333333s + (var(--index) * 0.0833333333s)); /* Calculate animation delay dynamically */
   animation-iteration-count: 1;
   -webkit-animation-fill-mode: forwards;
   display: inline-block;
   margin-top: 2em;
 }
 
-.letter:nth-of-type(1) {
-  animation-delay: -0.083333333s;
-}
-.letter:nth-of-type(3) {
-  animation-delay: 0.0833333333s;
-}
-.letter:nth-of-type(4) {
-  animation-delay: 0.1666666667s;
-}
-.letter:nth-of-type(5) {
-  animation-delay: 0.25s;
-}
-.letter:nth-of-type(6) {
-  animation-delay: 0.3333333333s;
-}
+/* Define custom properties to set the index for each letter */
+.letter:nth-of-type(1) { --index: 1; }
+.letter:nth-of-type(2) { --index: 2; }
+.letter:nth-of-type(3) { --index: 3; }
+.letter:nth-of-type(4) { --index: 4; }
+.letter:nth-of-type(5) { --index: 5; }
+.letter:nth-of-type(6) { --index: 6; }
+.letter:nth-of-type(7) { --index: 7; }
+.letter:nth-of-type(8) { --index: 8; }
+.letter:nth-of-type(9) { --index: 9; }
+
 
 @keyframes bounce {
   0% {
