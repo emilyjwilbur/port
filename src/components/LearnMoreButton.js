@@ -10,7 +10,7 @@ margin-top: 2rem;
     margin-bottom:30px;
     margin-left: 15px;
     font-size: .8rem;
-    background-color: #5f51d51 ;
+    background-color: #5f51d5 ;
     padding: .5em 1em;
     border-radius: 60px;
     display: inline-block;
