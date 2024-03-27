@@ -21,7 +21,7 @@ margin-top: 2rem;
 .button:hover {
   background-color: #777777;
   color:white;
-  border:none;
+  border:solid #777777 2px;
 
 
   
