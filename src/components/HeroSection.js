@@ -56,8 +56,11 @@ export default function HeroSection() {
               <div className="hero-content-inner">
                 <h1>
                 <div className="hero-content-line">
-                    <div className="hero-content-line-inner ">I turn ideas into <span className="bounce">
-                      <span className="hero-content-line-inner">
+                    <div className="hero-content-line-inner ">I turn ideas into</div>
+                  </div>
+                  <div className="hero-content-line">
+                    <div className="bounce">
+                      <div className="hero-content-line-inner">
                         {" "}
                         
                         <span class="letter">p</span>
@@ -68,12 +71,9 @@ export default function HeroSection() {
                         <span class="letter">c</span>
                         <span class="letter">t</span>
                         <span class="letter">s</span>
-                      </span>
-                    </span></div>
+                      </div>
+                    </div>
                   </div>
-                 
-              
-         
                  
                 </h1>
 
