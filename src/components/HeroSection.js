@@ -56,7 +56,7 @@ export default function HeroSection() {
               <div className="hero-content-inner">
                 <h1>
                 <div className="hero-content-line">
-                    <div className="hero-content-line-inner ">I turn ideas into</div>
+                    <div className="hero-content-line-inner  ">I turn ideas into</div>
                   </div>
                   <div className="hero-content-line">
                     <div className="bounce">
