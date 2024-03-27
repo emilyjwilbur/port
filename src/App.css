@@ -247,7 +247,9 @@ button:focus {
 
 @media only screen and (max-width: 600px) {
   
- 
+  .hero-content{
+    width: 100%;
+  }
   .hero-content-inner {
     width: 100%;
     margin: 0 auto;
