@@ -24,7 +24,7 @@ padding: 10rem 0;
     background-color: #cecdcd;
     padding: 3rem 1rem;
     text-align:center;
-    
+    border-radius: 24px;
 margin-bottom: -30px;
     
 }
