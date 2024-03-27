@@ -58,7 +58,7 @@ h1{
   animation-iteration-count: 1;
   -webkit-animation-fill-mode: forwards;
   display: inline-block;
-  margin-top: .5em;
+  margin-top: 1em;
   color: #5f51d5;
 }
 
