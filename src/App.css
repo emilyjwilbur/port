@@ -43,7 +43,9 @@ display: flex;
 
 
 /* hero section */
-
+h1{
+  line-height: 1.6em;
+}
 .bounce {
   display: flex;
   align-items: center;
