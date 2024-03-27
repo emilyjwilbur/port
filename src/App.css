@@ -340,7 +340,7 @@ button:focus {
 /* footer section */
 .footer {
   padding-top: 4rem;
-  background-color: #cecdcd;
+  background-color: #ececec;
   color: black;
   display: flex;
   gap: 2rem;
