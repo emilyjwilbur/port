@@ -21,7 +21,7 @@ padding: 10rem 0;
     justify-content:center;
 }
 .contactBanner_wrapper{
-    background-color: #cecdcd;
+    background-color: #ececec;
     padding: 3rem 1rem;
     text-align:center;
     border-radius: 24px;
