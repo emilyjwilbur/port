@@ -61,6 +61,9 @@ h1{
   margin-top: 1em;
   color: #5f51d5;
 }
+.letter .period{
+  color: #323232;
+}
 
 /* Define custom properties to set the index for each letter */
 .letter:nth-of-type(1) { --index: 1; }
