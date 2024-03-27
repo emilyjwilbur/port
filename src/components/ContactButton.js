@@ -7,11 +7,11 @@ const ContactButtonStyle = styled.div`
 margin-top: 2rem;
 .button {
     font-size: 1.5rem;
-    background-color: black ;
+    background-color: #5f51d5 ;
     padding: 0.5em 1.5em;
     border-radius: 8px;
     display: inline-block;
-    border:solid black 2px;
+    border:solid #5f51d5 2px;
     color: white;
     transition-property: background-color;
     transition-duration: 1s;
@@ -21,6 +21,7 @@ margin-top: 2rem;
 .button:hover {
   background-color: #777777;
   color:white;
+  border:none;
 
 
   
