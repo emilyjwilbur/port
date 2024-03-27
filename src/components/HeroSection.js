@@ -71,6 +71,7 @@ export default function HeroSection() {
                         <span class="letter">c</span>
                         <span class="letter">t</span>
                         <span class="letter">s</span>
+                        <span class="letter period">.</span>
                       </div>
                     </div>
                   </div>

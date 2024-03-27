@@ -72,7 +72,7 @@ h1{
 .letter:nth-of-type(7) { --index: 7; }
 .letter:nth-of-type(8) { --index: 8; }
 .letter:nth-of-type(9) { --index: 9; }
-
+.letter:nth-of-type(10) { --index: 10; }
 
 @keyframes bounce {
   0% {
