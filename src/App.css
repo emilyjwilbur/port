@@ -57,6 +57,7 @@ display: flex;
   -webkit-animation-fill-mode: forwards;
   display: inline-block;
   margin-top: 2em;
+  color: #5f51d5;
 }
 
 /* Define custom properties to set the index for each letter */
