@@ -249,7 +249,7 @@ button:focus {
   
  
   .hero-content-inner {
-    width: 400px;
+    width: 100%;
     margin: 0 auto;
     color: #323232;
   }
