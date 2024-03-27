@@ -20,7 +20,7 @@ position: relative;
     
 }
 .item {
-    background-color: gray;
+    background-color: #5f51d5;
     color:white;
     padding:1rem;
     border-radius: 8px;
