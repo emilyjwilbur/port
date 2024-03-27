@@ -15,7 +15,7 @@ padding: 10rem 0;
     
 }
 .you{
-    color:#fafafa;
+    color:#5f51d5;
     font-size:30px;
     text-align:center;
     justify-content:center;
