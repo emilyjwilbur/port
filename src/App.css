@@ -8,9 +8,7 @@
   width: 50px;
   transition: transform 0.7s ease-in-out;
 }
-.logo:hover {
-  /* transform: rotate(360deg); */
-}
+
 
 li {
   list-style-type: none;
