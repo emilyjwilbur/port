@@ -100,7 +100,7 @@ export default function HeroSection() {
           </div>
         </div>
         <div className="hero_scrollDown">
-          <p>Scroll for more</p>
+          <p>Scroll</p>
           <img src={SocialMediaArrow} alt="" />
         </div>
       </div>
