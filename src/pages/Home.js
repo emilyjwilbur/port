@@ -13,7 +13,8 @@ export default function Home(){
             
             <HeroSection />
             <SkillSectionHome />
-            <Gallery />
+          <Gallery />
+       
             <ContactBanner />
             
         </div>
